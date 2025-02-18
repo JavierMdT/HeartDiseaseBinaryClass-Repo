@@ -10,7 +10,7 @@ We took the data from "https://archive.ics.uci.edu/dataset/45/heart+disease". Th
 The originall output was multi-class but we binarize to simplify the problem. The data contains information like the age, sex, resting electrocardiograph results,
 maximum heart rate achived, etc. 
 
-The objective variable indicates whether a person is likely to have heart disease (represented by 1) or not (represented by 0).
+The target feature indicates whether a person is likely to have heart disease (represented by 1) or not (represented by 0).
 
 This project has two parts (or tasks). In the first one, we use a linear model and a Multi-Layer Perceptron, along with Exploratory Data Analysis (EDA).
 In the second part, we use the Support Vector Machine model, testing different kernels to choose the one that best fits our data. 
